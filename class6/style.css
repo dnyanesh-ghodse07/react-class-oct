@@ -1,0 +1,32 @@
+.box1 {
+  width: 200px;
+  height: 200px;
+  border: 2px solid red;
+  background: url("https://images.pexels.com/photos/18651666/pexels-photo-18651666.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.box1:hover {
+  background: linear-gradient(red, green);
+  /* transform: scaleX(1.1); */
+  /* transform: rotate(45deg); */
+}
+
+.box1 a:link {
+  color: green;
+}
+
+.box1 a:visited {
+  color: red;
+}
+
+.box1 a:active {
+  color: blue;
+}
+
+/* z-index */
+/* pseudo class - hover,active,visited,link*/
+/* transform - translate,rotate,scale */

@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 50vh;
+  background: #999;
+  display: flex;
+  gap: 10px;
+  /* justify-content - horizontally */
+  justify-content: center;
+  /* align-items - vertically */
+  align-items: center;
+  /* flex-direction: column; */
+}
+
+.child {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+
+.one {
+  background: red;
+  /* flex: 1; */
+}
+
+.two {
+  background: green;
+  /* flex: 1; */
+}
+
+.three {
+  background: yellow;
+  /* flex: 1; */
+}

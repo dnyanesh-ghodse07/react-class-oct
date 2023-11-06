@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+}
+
+.parent {
+  width: 300px;
+  height: 300px;
+  border: 10px solid red;
+  box-sizing: border-box;
+}
+
+.parent:hover {
+  background-color: yellow;
+}
+
+/* first child */
+
+p:first-child {
+  background-color: red;
+}
+p:nth-child(1) {
+  background-color: rebeccapurple;
+}
+
+.child {
+  width: 100px;
+  height: 100px;
+  /* background-color: black; */
+  margin: 2px;
+  padding: 4px;
+  border: 3px solid red;
+}
+
+#title {
+}
+
+/* .view {
+  width: 100vw;
+  height: 50vh;
+  background-color: lightblue;
+} */
+
+/* css selector */
+/* element -  */
+/* class .class */
+/* id #id */
+/* pseudo class - firstchild nthchild()*/
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 3px dotted red;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: cadetblue;
+}
