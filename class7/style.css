@@ -86,6 +86,7 @@ body {
 
 .testimonial {
   display: flex;
+  gap: 15px;
   padding: 30px 50px;
 }
 
@@ -112,4 +113,78 @@ body {
 }
 .profile-desc p {
   font-size: 12px;
+}
+
+.enquiry-form {
+  padding: 30px 50px;
+  background: rgb(99, 178, 99);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.enquiry-form input,
+textarea {
+  padding: 5px 8px;
+  outline: none;
+  margin: 5px 0;
+}
+.submit-btn {
+  border: none;
+  padding: 5px 16px;
+  border-radius: 3px;
+}
+
+@media only screen and (max-width: 600px) {
+  .products {
+    flex-direction: column;
+  }
+  .testimonial {
+    flex-direction: column;
+  }
+
+  .form {
+    flex-direction: column;
+  }
+}
+
+.footer {
+  background: #eee;
+  /* padding: 30px 50px; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer .footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: lightgreen;
+}
+
+.footer-top ul {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-bottom {
+  padding: 10px;
+  background: green;
 }
